@@ -1,7 +1,6 @@
 #include <boost/thread.hpp>
 #include <string>
 
-#include "caffe/data_reader.hpp"
 #include "caffe/layers/base_data_layer.hpp"
 #include "caffe/parallel.hpp"
 #include "caffe/util/blocking_queue.hpp"
@@ -88,6 +87,7 @@ size_t BlockingQueue<T>::size() const {
 
 template class BlockingQueue<Batch<float>*>;
 template class BlockingQueue<Batch<double>*>;
+<<<<<<< HEAD
 template class BlockingQueue<Datum*>;
 template class BlockingQueue<AnnotatedDatum*>;
 template class BlockingQueue<shared_ptr<DataReader<Datum>::QueuePair> >;
@@ -95,5 +95,7 @@ template class BlockingQueue<
   shared_ptr<DataReader<AnnotatedDatum>::QueuePair> >;
 template class BlockingQueue<P2PSync<float>*>;
 template class BlockingQueue<P2PSync<double>*>;
+=======
+>>>>>>> 16467ff149c880f752414ee2c241c01040d1a05f
 
 }  // namespace caffe
