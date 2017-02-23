@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <code-assistance-data xmlns="http://www.netbeans.org/ns/make-project-private/1">
+        <code-model-enabled>true</code-model-enabled>
+    </code-assistance-data>
+    <data xmlns="http://www.netbeans.org/ns/make-project-private/1">
+        <activeConfTypeElem>0</activeConfTypeElem>
+        <activeConfIndexElem>0</activeConfIndexElem>
+    </data>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>rfs://ubuntu@132.68.49.47:22/home/ubuntu/caffe/src/caffe/layers/softmax%5F%6C%61%79%65%72%2E%63%75</file>
+            <file>rfs://ubuntu@132.68.49.47:22/home/ubuntu/caffe/src/caffe/syncedmem.cpp</file>
+            <file>rfs://ubuntu@132.68.49.47:22/home/ubuntu/caffe/include/caffe/syncedmem.hpp</file>
+            <file>rfs://ubuntu@132.68.49.47:22/home/ubuntu/caffe/src/caffe/net.cpp</file>
+            <file>rfs://ubuntu@132.68.49.47:22/home/ubuntu/caffe/include/caffe/layer.hpp</file>
+            <file>rfs://ubuntu@132.68.49.47:22/home/ubuntu/caffe/src/caffe/parallel.cpp</file>
+            <file>rfs://ubuntu@132.68.49.47:22/home/ubuntu/caffe/src/caffe/layer.cpp</file>
+            <file>rfs://ubuntu@132.68.49.47:22/home/ubuntu/caffe/examples/ssd/ssd%5F%64%65%74%65%63%74%2E%63%70%70</file>
+            <file>rfs://ubuntu@132.68.49.47:22/home/ubuntu/caffe/include/caffe/net.hpp</file>
+            <file>rfs://ubuntu@132.68.49.47:22/home/ubuntu/caffe/src/caffe/blob.cpp</file>
+        </group>
+    </open-files>
+</project-private>

@@ -1,0 +1,1045 @@
+[
+{
+  "directory": "/home/ubuntu/caffe/src/gtest",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/gtest.dir/gtest-all.cpp.o -c /home/ubuntu/caffe/src/gtest/gtest-all.cpp",
+  "file": "/home/ubuntu/caffe/src/gtest/gtest-all.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/proto.dir/__/__/include/caffe/proto/caffe.pb.cc.o -c /home/ubuntu/caffe/include/caffe/proto/caffe.pb.cc",
+  "file": "/home/ubuntu/caffe/include/caffe/proto/caffe.pb.cc"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/data_transformer.cpp.o -c /home/ubuntu/caffe/src/caffe/data_transformer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/data_transformer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/data_reader.cpp.o -c /home/ubuntu/caffe/src/caffe/data_reader.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/data_reader.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/internal_thread.cpp.o -c /home/ubuntu/caffe/src/caffe/internal_thread.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/internal_thread.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/blob.cpp.o -c /home/ubuntu/caffe/src/caffe/blob.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/blob.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/syncedmem.cpp.o -c /home/ubuntu/caffe/src/caffe/syncedmem.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/syncedmem.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.o -c /home/ubuntu/caffe/src/caffe/solvers/sgd_solver.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/solvers/sgd_solver.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/solvers/rmsprop_solver.cpp.o -c /home/ubuntu/caffe/src/caffe/solvers/rmsprop_solver.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/solvers/rmsprop_solver.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/solvers/nesterov_solver.cpp.o -c /home/ubuntu/caffe/src/caffe/solvers/nesterov_solver.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/solvers/nesterov_solver.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/solvers/adam_solver.cpp.o -c /home/ubuntu/caffe/src/caffe/solvers/adam_solver.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/solvers/adam_solver.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/solvers/adadelta_solver.cpp.o -c /home/ubuntu/caffe/src/caffe/solvers/adadelta_solver.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/solvers/adadelta_solver.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/solvers/adagrad_solver.cpp.o -c /home/ubuntu/caffe/src/caffe/solvers/adagrad_solver.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/solvers/adagrad_solver.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/util/sampler.cpp.o -c /home/ubuntu/caffe/src/caffe/util/sampler.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/util/sampler.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/util/cudnn.cpp.o -c /home/ubuntu/caffe/src/caffe/util/cudnn.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/util/cudnn.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/util/hdf5.cpp.o -c /home/ubuntu/caffe/src/caffe/util/hdf5.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/util/hdf5.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/util/db_lmdb.cpp.o -c /home/ubuntu/caffe/src/caffe/util/db_lmdb.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/util/db_lmdb.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/util/blocking_queue.cpp.o -c /home/ubuntu/caffe/src/caffe/util/blocking_queue.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/util/blocking_queue.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/util/benchmark.cpp.o -c /home/ubuntu/caffe/src/caffe/util/benchmark.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/util/benchmark.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/util/math_functions.cpp.o -c /home/ubuntu/caffe/src/caffe/util/math_functions.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/util/math_functions.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/util/bbox_util.cpp.o -c /home/ubuntu/caffe/src/caffe/util/bbox_util.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/util/bbox_util.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/util/insert_splits.cpp.o -c /home/ubuntu/caffe/src/caffe/util/insert_splits.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/util/insert_splits.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/util/im2col.cpp.o -c /home/ubuntu/caffe/src/caffe/util/im2col.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/util/im2col.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/util/upgrade_proto.cpp.o -c /home/ubuntu/caffe/src/caffe/util/upgrade_proto.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/util/upgrade_proto.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/util/im_transforms.cpp.o -c /home/ubuntu/caffe/src/caffe/util/im_transforms.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/util/im_transforms.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/util/db.cpp.o -c /home/ubuntu/caffe/src/caffe/util/db.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/util/db.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/util/io.cpp.o -c /home/ubuntu/caffe/src/caffe/util/io.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/util/io.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/util/signal_handler.cpp.o -c /home/ubuntu/caffe/src/caffe/util/signal_handler.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/util/signal_handler.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/util/db_leveldb.cpp.o -c /home/ubuntu/caffe/src/caffe/util/db_leveldb.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/util/db_leveldb.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/parallel.cpp.o -c /home/ubuntu/caffe/src/caffe/parallel.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/parallel.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/solver.cpp.o -c /home/ubuntu/caffe/src/caffe/solver.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/solver.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layer_factory.cpp.o -c /home/ubuntu/caffe/src/caffe/layer_factory.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layer_factory.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/net.cpp.o -c /home/ubuntu/caffe/src/caffe/net.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/net.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/multibox_loss_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/multibox_loss_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/multibox_loss_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/elu_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/elu_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/elu_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/video_data_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/video_data_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/video_data_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/lstm_unit_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/lstm_unit_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/lstm_unit_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/cudnn_tanh_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/cudnn_tanh_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/cudnn_tanh_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/cudnn_sigmoid_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/cudnn_sigmoid_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/cudnn_sigmoid_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/embed_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/embed_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/embed_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/input_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/input_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/input_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/argmax_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/argmax_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/argmax_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/window_data_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/window_data_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/window_data_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/batch_reindex_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/batch_reindex_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/batch_reindex_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/data_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/data_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/data_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/dummy_data_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/dummy_data_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/dummy_data_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/split_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/split_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/split_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/annotated_data_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/annotated_data_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/annotated_data_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/tile_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/tile_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/tile_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/prelu_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/prelu_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/prelu_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/eltwise_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/eltwise_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/eltwise_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/filter_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/filter_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/filter_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/hdf5_data_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/hdf5_data_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/hdf5_data_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/cudnn_conv_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/cudnn_conv_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/cudnn_conv_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/softmax_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/softmax_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/softmax_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/pooling_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/pooling_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/pooling_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/scale_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/scale_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/scale_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/infogain_loss_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/infogain_loss_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/infogain_loss_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/detection_evaluate_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/detection_evaluate_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/detection_evaluate_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/sigmoid_cross_entropy_loss_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/sigmoid_cross_entropy_loss_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/sigmoid_cross_entropy_loss_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/detection_output_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/detection_output_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/detection_output_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/memory_data_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/memory_data_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/memory_data_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/log_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/log_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/log_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/hdf5_output_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/hdf5_output_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/hdf5_output_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/silence_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/silence_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/silence_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/cudnn_relu_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/cudnn_relu_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/cudnn_relu_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/exp_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/exp_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/exp_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/relu_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/relu_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/relu_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/inner_product_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/inner_product_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/inner_product_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/multinomial_logistic_loss_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/multinomial_logistic_loss_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/multinomial_logistic_loss_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/cudnn_softmax_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/cudnn_softmax_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/cudnn_softmax_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/neuron_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/neuron_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/neuron_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/crop_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/crop_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/crop_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/smooth_L1_loss_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/smooth_L1_loss_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/smooth_L1_loss_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/cudnn_pooling_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/cudnn_pooling_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/cudnn_pooling_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/absval_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/absval_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/absval_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/mvn_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/mvn_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/mvn_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/contrastive_loss_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/contrastive_loss_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/contrastive_loss_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/prior_box_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/prior_box_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/prior_box_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/base_conv_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/base_conv_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/base_conv_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/flatten_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/flatten_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/flatten_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/rnn_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/rnn_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/rnn_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/concat_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/concat_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/concat_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/normalize_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/normalize_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/normalize_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/deconv_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/deconv_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/deconv_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/bias_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/bias_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/bias_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/lrn_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/lrn_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/lrn_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/conv_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/conv_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/conv_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/image_data_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/image_data_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/image_data_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/cudnn_lcn_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/cudnn_lcn_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/cudnn_lcn_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/accuracy_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/accuracy_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/accuracy_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/loss_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/loss_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/loss_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/batch_norm_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/batch_norm_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/batch_norm_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/reduction_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/reduction_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/reduction_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/slice_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/slice_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/slice_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/sigmoid_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/sigmoid_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/sigmoid_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/threshold_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/threshold_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/threshold_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/cudnn_lrn_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/cudnn_lrn_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/cudnn_lrn_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/im2col_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/im2col_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/im2col_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/permute_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/permute_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/permute_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/base_data_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/base_data_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/base_data_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/dropout_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/dropout_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/dropout_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/parameter_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/parameter_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/parameter_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/softmax_loss_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/softmax_loss_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/softmax_loss_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/spp_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/spp_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/spp_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/tanh_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/tanh_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/tanh_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/hinge_loss_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/hinge_loss_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/hinge_loss_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/lstm_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/lstm_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/lstm_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/euclidean_loss_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/euclidean_loss_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/euclidean_loss_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/reshape_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/reshape_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/reshape_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/recurrent_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/recurrent_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/recurrent_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/power_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/power_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/power_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/layers/bnll_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/layers/bnll_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/layers/bnll_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -Dcaffe_EXPORTS -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2 -fPIC   -o CMakeFiles/caffe.dir/common.cpp.o -c /home/ubuntu/caffe/src/caffe/common.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/common.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_embed_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_embed_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_embed_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_pooling_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_pooling_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_pooling_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_mvn_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_mvn_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_mvn_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_softmax_with_loss_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_softmax_with_loss_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_softmax_with_loss_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_gradient_based_solver.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_gradient_based_solver.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_gradient_based_solver.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_db.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_db.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_db.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_lstm_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_lstm_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_lstm_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_reshape_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_reshape_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_reshape_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_hdf5_output_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_hdf5_output_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_hdf5_output_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_argmax_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_argmax_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_argmax_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_spp_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_spp_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_spp_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_net.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_net.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_net.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_solver_factory.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_solver_factory.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_solver_factory.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_filter_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_filter_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_filter_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_batch_norm_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_batch_norm_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_batch_norm_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_prior_box_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_prior_box_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_prior_box_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_im_transforms.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_im_transforms.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_im_transforms.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_detection_output_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_detection_output_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_detection_output_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_annotated_data_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_annotated_data_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_annotated_data_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_platform.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_platform.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_platform.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_hinge_loss_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_hinge_loss_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_hinge_loss_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_softmax_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_softmax_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_softmax_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_internal_thread.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_internal_thread.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_internal_thread.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_permute_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_permute_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_permute_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_flatten_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_flatten_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_flatten_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_threshold_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_threshold_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_threshold_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_multinomial_logistic_loss_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_multinomial_logistic_loss_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_multinomial_logistic_loss_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_solver.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_solver.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_solver.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_euclidean_loss_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_euclidean_loss_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_euclidean_loss_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_split_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_split_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_split_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_filler.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_filler.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_filler.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_memory_data_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_memory_data_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_memory_data_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_accuracy_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_accuracy_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_accuracy_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_neuron_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_neuron_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_neuron_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_image_data_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_image_data_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_image_data_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_hdf5data_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_hdf5data_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_hdf5data_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_data_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_data_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_data_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_syncedmem.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_syncedmem.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_syncedmem.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_lrn_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_lrn_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_lrn_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_stochastic_pooling.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_stochastic_pooling.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_stochastic_pooling.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_eltwise_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_eltwise_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_eltwise_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_bias_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_bias_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_bias_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_blob.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_blob.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_blob.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_contrastive_loss_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_contrastive_loss_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_contrastive_loss_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_detection_evaluate_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_detection_evaluate_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_detection_evaluate_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_normalize_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_normalize_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_normalize_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_common.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_common.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_common.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_util_blas.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_util_blas.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_util_blas.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_crop_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_crop_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_crop_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_im2col_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_im2col_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_im2col_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_multibox_loss_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_multibox_loss_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_multibox_loss_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_scale_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_scale_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_scale_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_inner_product_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_inner_product_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_inner_product_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_rnn_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_rnn_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_rnn_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_convolution_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_convolution_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_convolution_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_power_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_power_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_power_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_maxpool_dropout_layers.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_maxpool_dropout_layers.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_maxpool_dropout_layers.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_deconvolution_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_deconvolution_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_deconvolution_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_batch_reindex_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_batch_reindex_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_batch_reindex_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_protobuf.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_protobuf.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_protobuf.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_tile_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_tile_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_tile_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_math_functions.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_math_functions.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_math_functions.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_concat_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_concat_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_concat_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_sigmoid_cross_entropy_loss_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_sigmoid_cross_entropy_loss_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_sigmoid_cross_entropy_loss_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_upgrade_proto.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_upgrade_proto.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_upgrade_proto.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_smooth_L1_loss_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_smooth_L1_loss_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_smooth_L1_loss_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_dummy_data_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_dummy_data_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_dummy_data_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_io.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_io.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_io.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_bbox_util.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_bbox_util.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_bbox_util.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_slice_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_slice_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_slice_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_random_number_generator.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_random_number_generator.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_random_number_generator.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_layer_factory.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_layer_factory.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_layer_factory.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_caffe_main.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_caffe_main.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_caffe_main.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_infogain_loss_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_infogain_loss_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_infogain_loss_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_benchmark.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_benchmark.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_benchmark.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_tanh_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_tanh_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_tanh_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_data_transformer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_data_transformer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_data_transformer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/src/caffe/test",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test.testbin.dir/test_reduction_layer.cpp.o -c /home/ubuntu/caffe/src/caffe/test/test_reduction_layer.cpp",
+  "file": "/home/ubuntu/caffe/src/caffe/test/test_reduction_layer.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/tools",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/upgrade_solver_proto_text.dir/upgrade_solver_proto_text.cpp.o -c /home/ubuntu/caffe/tools/upgrade_solver_proto_text.cpp",
+  "file": "/home/ubuntu/caffe/tools/upgrade_solver_proto_text.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/tools",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/device_query.dir/device_query.cpp.o -c /home/ubuntu/caffe/tools/device_query.cpp",
+  "file": "/home/ubuntu/caffe/tools/device_query.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/tools",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/get_image_size.dir/get_image_size.cpp.o -c /home/ubuntu/caffe/tools/get_image_size.cpp",
+  "file": "/home/ubuntu/caffe/tools/get_image_size.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/tools",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/finetune_net.dir/finetune_net.cpp.o -c /home/ubuntu/caffe/tools/finetune_net.cpp",
+  "file": "/home/ubuntu/caffe/tools/finetune_net.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/tools",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/net_speed_benchmark.dir/net_speed_benchmark.cpp.o -c /home/ubuntu/caffe/tools/net_speed_benchmark.cpp",
+  "file": "/home/ubuntu/caffe/tools/net_speed_benchmark.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/tools",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/convert_annoset.dir/convert_annoset.cpp.o -c /home/ubuntu/caffe/tools/convert_annoset.cpp",
+  "file": "/home/ubuntu/caffe/tools/convert_annoset.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/tools",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/test_net.dir/test_net.cpp.o -c /home/ubuntu/caffe/tools/test_net.cpp",
+  "file": "/home/ubuntu/caffe/tools/test_net.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/tools",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/train_net.dir/train_net.cpp.o -c /home/ubuntu/caffe/tools/train_net.cpp",
+  "file": "/home/ubuntu/caffe/tools/train_net.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/tools",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/caffe.bin.dir/caffe.cpp.o -c /home/ubuntu/caffe/tools/caffe.cpp",
+  "file": "/home/ubuntu/caffe/tools/caffe.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/tools",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/convert_imageset.dir/convert_imageset.cpp.o -c /home/ubuntu/caffe/tools/convert_imageset.cpp",
+  "file": "/home/ubuntu/caffe/tools/convert_imageset.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/tools",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/upgrade_net_proto_binary.dir/upgrade_net_proto_binary.cpp.o -c /home/ubuntu/caffe/tools/upgrade_net_proto_binary.cpp",
+  "file": "/home/ubuntu/caffe/tools/upgrade_net_proto_binary.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/tools",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/create_label_map.dir/create_label_map.cpp.o -c /home/ubuntu/caffe/tools/create_label_map.cpp",
+  "file": "/home/ubuntu/caffe/tools/create_label_map.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/tools",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/compute_image_mean.dir/compute_image_mean.cpp.o -c /home/ubuntu/caffe/tools/compute_image_mean.cpp",
+  "file": "/home/ubuntu/caffe/tools/compute_image_mean.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/tools",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/extract_features.dir/extract_features.cpp.o -c /home/ubuntu/caffe/tools/extract_features.cpp",
+  "file": "/home/ubuntu/caffe/tools/extract_features.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/tools",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/upgrade_net_proto_text.dir/upgrade_net_proto_text.cpp.o -c /home/ubuntu/caffe/tools/upgrade_net_proto_text.cpp",
+  "file": "/home/ubuntu/caffe/tools/upgrade_net_proto_text.cpp"
+},
+{
+  "directory": "/home/ubuntu/caffe/examples",
+  "command": "/usr/bin/g++   -DCAFFE_VERSION=1.0.0-rc3 -DGTEST_USE_OWN_TR1_TUPLE -DUSE_CUDNN -DUSE_LEVELDB -DUSE_LMDB -DUSE_OPENCV -DWITH_PYTHON_LAYER -I/home/ubuntu/caffe/src -I/home/ubuntu/caffe/include -isystem /usr/include/hdf5/serial -isystem /usr/local/cuda/include -isystem /usr/include/opencv -isystem /usr/include/atlas -isystem /usr/include/python2.7 -isystem /usr/lib/python2.7/dist-packages/numpy/core/include -I/home/ubuntu/caffe   -fPIC -Wall -Wno-sign-compare -Wno-uninitialized -g3 -gdwarf-2   -o CMakeFiles/convert_mnist_siamese_data.dir/siamese/convert_mnist_siamese_data.cpp.o -c /home/ubuntu/caffe/examples/siamese/convert_mnist_siamese_data.cpp",
+  "file": "/home/ubuntu/caffe/examples/siamese/convert_mnist_siamese_data.cpp"
