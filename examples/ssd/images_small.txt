@@ -1,0 +1,10 @@
+./examples/images/COCO_test2014_000000000016.jpg
+./examples/images/COCO_test2014_000000000027.jpg
+./examples/images/COCO_test2014_000000000080.jpg
+./examples/images/COCO_test2014_000000000083.jpg
+./examples/images/COCO_test2014_000000000090.jpg
+./examples/images/COCO_test2014_000000000178.jpg
+./examples/images/COCO_test2014_000000000180.jpg
+./examples/images/COCO_test2014_000000000212.jpg
+./examples/images/COCO_test2014_000000000245.jpg
+./examples/images/COCO_test2014_000000000275.jpg
