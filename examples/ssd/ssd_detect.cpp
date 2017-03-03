@@ -25,6 +25,7 @@
 #include <string>
 #include <utility>
 #include <vector>
+#include <pthread.h>
 
 #ifdef USE_OPENCV
 using namespace caffe;  // NOLINT(build/namespaces)
@@ -241,14 +242,27 @@ DEFINE_string(out_file, "",
 DEFINE_double(confidence_threshold, 0.01,
     "Only store detections with score higher than the threshold.");
 
+  const int num_threads = 2;
+  cv::Mat glbl_img;
+
+void *foo(void *arg)
+{
+    Detector * det = (Detector *) arg;
+    det->Detect(glbl_img);
+    return NULL;
+}
+
 int main(int argc, char** argv) {
   ::google::InitGoogleLogging(argv[0]);
   // Print output to stderr (while still logging)
-  FLAGS_alsologtostderr = 1;
+  FLAGS_alsologtostderr = 4;
 
 #ifndef GFLAGS_GFLAGS_H_
   namespace gflags = google;
 #endif
+
+
+  pthread_t threads[num_threads];
 
   gflags::SetUsageMessage("Do detection using SSD mode.\n"
         "Usage:\n"
@@ -269,7 +283,8 @@ int main(int argc, char** argv) {
   const float confidence_threshold = FLAGS_confidence_threshold;
 
   // Initialize the network.
-  Detector detector(model_file, weights_file, mean_file, mean_value);
+  std::vector<Detector> detectors(num_threads, Detector(model_file, weights_file, mean_file, mean_value));
+  //Detector detector(model_file, weights_file, mean_file, mean_value);
 
   // Set the output mode.
   std::streambuf* buf = std::cout.rdbuf();
@@ -288,10 +303,22 @@ int main(int argc, char** argv) {
   while (infile >> file) {
     if (file_type == "image") {
       cv::Mat img = cv::imread(file, -1);
+      glbl_img = img;
       CHECK(!img.empty()) << "Unable to decode image " << file;
-      std::vector<vector<float> > detections = detector.Detect(img);
+      for (int i = 0; i < num_threads; i++) {
+          pthread_create(&threads[i], 0, foo, &detectors.at(0));
+      }
+      for (int i = 0; i < num_threads; i++) {
+          if(pthread_join(threads[i], NULL)) {
+              fprintf(stderr, "Error joining threadn");
+              return 2;
+          }
+      }
+      //std::vector<vector<float> > detections = detector.Detect(img);
+      
 
       /* Print the detection results. */
+      /*
       for (int i = 0; i < detections.size(); ++i) {
         const vector<float>& d = detections[i];
         // Detection format: [image_id, label, score, xmin, ymin, xmax, ymax].
@@ -306,7 +333,7 @@ int main(int argc, char** argv) {
           out << static_cast<int>(d[5] * img.cols) << " ";
           out << static_cast<int>(d[6] * img.rows) << std::endl;
         }
-      }
+      }*/
     } else if (file_type == "video") {
       cv::VideoCapture cap(file);
       if (!cap.isOpened()) {
@@ -321,7 +348,7 @@ int main(int argc, char** argv) {
           break;
         }
         CHECK(!img.empty()) << "Error when read frame";
-        std::vector<vector<float> > detections = detector.Detect(img);
+        std::vector<vector<float> > detections = detectors.at(0).Detect(img);
 
         /* Print the detection results. */
         for (int i = 0; i < detections.size(); ++i) {

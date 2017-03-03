@@ -97,7 +97,7 @@ resize_height = 300
 
 # Parameters needed for test.
 # Set the number of test iterations to the maximum integer number.
-test_iter = int(math.pow(2, 29) - 1)
+test_iter = 10 #int(math.pow(2, 29) - 1)
 # Use GPU or CPU
 solver_mode = P.Solver.GPU
 # Defining which GPUs to use.

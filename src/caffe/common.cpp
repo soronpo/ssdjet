@@ -1,4 +1,5 @@
 #include <boost/thread.hpp>
+#define GOOGLE_STRIP_LOG 1    // this must go before the #include!
 #include <glog/logging.h>
 #include <cmath>
 #include <cstdio>

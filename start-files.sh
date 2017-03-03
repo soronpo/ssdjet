@@ -1,0 +1,1 @@
+~/caffe/build/examples/ssd/ssd_detect.bin ~/caffe/models/VGGNet/VOC0712/SSD_300x300/deploy.prototxt models/VGGNet/VOC0712/SSD_300x300/VGG_VOC0712_SSD_300x300_iter_120000.caffemodel ~/caffe/examples/ssd/images_small.txt
