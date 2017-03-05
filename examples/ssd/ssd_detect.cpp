@@ -242,8 +242,9 @@ DEFINE_string(out_file, "",
 DEFINE_double(confidence_threshold, 0.01,
     "Only store detections with score higher than the threshold.");
 
-  const int num_threads = 2;
+  const int num_threads = 0;
   cv::Mat glbl_img;
+  cv::Mat glbl_img2;
 
 void *foo(void *arg)
 {
@@ -251,6 +252,13 @@ void *foo(void *arg)
     det->Detect(glbl_img);
     return NULL;
 }
+void *foo2(void *arg)
+{
+    Detector * det = (Detector *) arg;
+    det->Detect(glbl_img2);
+    return NULL;
+}
+
 
 int main(int argc, char** argv) {
   ::google::InitGoogleLogging(argv[0]);
@@ -262,7 +270,7 @@ int main(int argc, char** argv) {
 #endif
 
 
-  pthread_t threads[num_threads];
+  //pthread_t threads[num_threads];
 
   gflags::SetUsageMessage("Do detection using SSD mode.\n"
         "Usage:\n"
@@ -283,8 +291,8 @@ int main(int argc, char** argv) {
   const float confidence_threshold = FLAGS_confidence_threshold;
 
   // Initialize the network.
-  std::vector<Detector> detectors(num_threads, Detector(model_file, weights_file, mean_file, mean_value));
-  //Detector detector(model_file, weights_file, mean_file, mean_value);
+  //std::vector<Detector> detectors(num_threads, Detector(model_file, weights_file, mean_file, mean_value));
+  Detector detector(model_file, weights_file, mean_file, mean_value);
 
   // Set the output mode.
   std::streambuf* buf = std::cout.rdbuf();
@@ -303,22 +311,25 @@ int main(int argc, char** argv) {
   while (infile >> file) {
     if (file_type == "image") {
       cv::Mat img = cv::imread(file, -1);
-      glbl_img = img;
+      //glbl_img = img;
+      //glbl_img2 = img.clone();
       CHECK(!img.empty()) << "Unable to decode image " << file;
-      for (int i = 0; i < num_threads; i++) {
-          pthread_create(&threads[i], 0, foo, &detectors.at(0));
+      /*for (int i = 0; i < num_threads; i++) {
+          if (i == 0)
+            pthread_create(&threads[i], 0, foo, &detectors.at(i));
+          else
+            pthread_create(&threads[i], 0, foo2, &detectors.at(i));
       }
       for (int i = 0; i < num_threads; i++) {
           if(pthread_join(threads[i], NULL)) {
               fprintf(stderr, "Error joining threadn");
               return 2;
           }
-      }
-      //std::vector<vector<float> > detections = detector.Detect(img);
+      }*/
+      std::vector<vector<float> > detections = detector.Detect(img);
       
 
       /* Print the detection results. */
-      /*
       for (int i = 0; i < detections.size(); ++i) {
         const vector<float>& d = detections[i];
         // Detection format: [image_id, label, score, xmin, ymin, xmax, ymax].
@@ -333,7 +344,7 @@ int main(int argc, char** argv) {
           out << static_cast<int>(d[5] * img.cols) << " ";
           out << static_cast<int>(d[6] * img.rows) << std::endl;
         }
-      }*/
+      }
     } else if (file_type == "video") {
       cv::VideoCapture cap(file);
       if (!cap.isOpened()) {
@@ -348,7 +359,7 @@ int main(int argc, char** argv) {
           break;
         }
         CHECK(!img.empty()) << "Error when read frame";
-        std::vector<vector<float> > detections = detectors.at(0).Detect(img);
+        std::vector<vector<float> > detections = detector.Detect(img);
 
         /* Print the detection results. */
         for (int i = 0; i < detections.size(); ++i) {

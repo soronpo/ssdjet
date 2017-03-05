@@ -102,3 +102,4 @@ jobs
 temp
 examples/*/*lmdb
 examples/images/*.jpg
+*.*#
