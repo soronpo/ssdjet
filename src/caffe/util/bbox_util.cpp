@@ -7,6 +7,7 @@
 #include <string>
 #include <utility>
 #include <vector>
+#include <sys/time.h>
 
 #include "boost/iterator/counting_iterator.hpp"
 
@@ -2131,6 +2132,10 @@ vector<cv::Scalar> GetColors(const int n) {
 }
 
 static clock_t start_clock = clock();
+static clock_t prev_clock = clock();
+static timespec prev_time;
+static unsigned long frame_cnt = 0;
+
 static cv::VideoWriter cap_out;
 
 template <typename Dtype>
@@ -2146,7 +2151,7 @@ void VisualizeBBox(const vector<cv::Mat>& images, const Blob<Dtype>* detections,
     return;
   }
   // Comute FPS.
-  float fps = num_img / (static_cast<double>(clock() - start_clock) /
+  float fps = num_img / (static_cast<long double>(clock() - start_clock) /
           CLOCKS_PER_SEC);
 
   const Dtype* detections_data = detections->cpu_data();
@@ -2171,14 +2176,18 @@ void VisualizeBBox(const vector<cv::Mat>& images, const Blob<Dtype>* detections,
   }
 
   int fontface = cv::FONT_HERSHEY_SIMPLEX;
-  double scale = 1;
-  int thickness = 2;
+  double scale = 0.5;
+  int thickness = 1;
   int baseline = 0;
   char buffer[50];
   for (int i = 0; i < num_img; ++i) {
     cv::Mat image = images[i];
     // Show FPS.
-    snprintf(buffer, sizeof(buffer), "FPS: %.2f", fps);
+    frame_cnt = frame_cnt + 1;
+    snprintf(buffer, sizeof(buffer), "FC:%04ju CpuT[ms]: %03ju", frame_cnt, ((clock()-prev_clock) / (CLOCKS_PER_SEC/1000)));
+    prev_clock = clock();
+    clock_gettime(CLOCK_REALTIME, &prev_time); 
+    //snprintf(buffer, sizeof(buffer), "FPS: %.2f", fps);
     cv::Size text = cv::getTextSize(buffer, fontface, scale, thickness,
                                     &baseline);
     cv::rectangle(image, cv::Point(0, 0),

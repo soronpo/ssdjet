@@ -97,7 +97,7 @@ resize_height = 300
 
 # Parameters needed for test.
 # Set the number of test iterations to the maximum integer number.
-test_iter = 10 #int(math.pow(2, 29) - 1)
+test_iter = 30 #int(math.pow(2, 29) - 1)
 # Use GPU or CPU
 solver_mode = P.Solver.GPU
 # Defining which GPUs to use.
@@ -110,7 +110,7 @@ visualize_threshold = 0.6
 webcam_width = 640
 webcam_height = 480
 # Scale the image size for display.
-scale = 1.5
+scale = 0.5
 
 ### Hopefully you don't need to change the following ###
 resize = "{}x{}".format(resize_width, resize_height)
