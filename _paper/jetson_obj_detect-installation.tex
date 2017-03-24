@@ -52,3 +52,6 @@ We also noticed that Jetson TX1 fan does not work on default. The script above t
 \begin{lstlisting} 
 echo 255 > /sys/kernel/debug/tegra_fan/target_pwm
 \end{lstlisting}
+
+\textbf{FPS Readings.}
+Both SSD and YOLO produce FPS readings based on the CPU time. Because most computation is done on the GPU, the FPS are readings are incorrect, and need to be measured in another way, e.g., dividing the number of analyzed images by the wall-clock time, or using the profiler.

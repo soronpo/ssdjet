@@ -13,6 +13,9 @@ J.~Redmon, S.~Divvala, R.~Girshick, and A.~Farhadi, ``{You Only Look Once:
 \bibitem{mscoco}
 ``{COCO - Common Objects in Context}.'' http://mscoco.org.
 
+\bibitem{tegrazerocopy}
+``{Zero Copy on Tegra K1}.'' http://arrayfire.com/zero-copy-on-tegra-k1/.
+
 \bibitem{tegradriverpack242}
 Nvidia, ``{Tegra Linux Driver Package R24.2},'' 2016.
 
