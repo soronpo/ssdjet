@@ -35,7 +35,7 @@ During Caffe compilation we suffered from a lot of system restarts. We figured o
 \begin{lstlisting} 
 echo 255 > /sys/kernel/debug/tegra_fan/target_pwm
 \end{lstlisting}
-However, calling sudo directly with the command does not work. Create a shell script that includes the command, mark it as executable (chmod +x start-fan.sh), and use sudo to call the script instead. We recommend to have an alias handy in your ~/.bashrc file. For example:
+However, calling sudo directly with the command does not work. Create a shell script that includes the command, mark it as executable (chmod +x start-fan.sh), and use sudo to call the script instead. We recommend to have an alias handy in your $\sim$/.bashrc file. For example:
 \begin{lstlisting} 
 alias start-fan="sudo ~/start-fan.sh"
 \end{lstlisting}
@@ -66,7 +66,7 @@ LIBRARIES += glog gflags protobuf boost_system boost_filesystem m hdf5_serial_hl
 \end{lstlisting}
 
 \textbf{Python and Caffe paths}.
-Caffe also has Python libraries. Running Python scripts can fail due to unset Python path. By adding the following to ~/.bashrc :
+Caffe also has Python libraries. Running Python scripts can fail due to unset Python path. By adding the following to $\sim$/.bashrc :
 \begin{lstlisting} 
 export CAFFE_ROOT=$HOME/caffe
 export PYTHONPATH=$CAFFE_ROOT/python

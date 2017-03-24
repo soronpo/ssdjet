@@ -22,7 +22,7 @@ SSD and YOLO performance is almost identical when compiled with cuDNN. It is int
 
 SSD and YOLO are also packed with a web-camera demo. The original FPS readings used in the demo code are wrong, since they are based on the CPU execution time on the on the GPU execution time, therefore, the original, incorrect readings, are higher. After fixing the source code, we have measured 3.8FPS when using SSD and 4.7FPS when using YOLO. We ran the demo when both SSD and YOLO are compiled with cuDNN, and after running the \textit{jetson\_clocks.sh} script (see Section \ref{sec:installation}).
 
-YOLO 4.7FPS fits the 200msec measurement shown in Figure \ref{fig:t_exec} ($200msec [sec/frame] = 5[frame/sec]$). The slightly lower FPS measured is due to the software overheads (e.g., fetching the images, operating system, etc.).
+YOLO 4.7FPS fits the 200msec measurement shown in Figure \ref{fig:t_exec} ($200msec [sec/frame] = 5[frame/sec]$). The slightly lower FPS measured is due to the software overheads (e.g., fetching the images, displaying them, and drawing detection bounds).
 
 SSD web-camera FPS is lower since the code that runs it is synchronous, meaning after an image was acquired from the web-camera it is inserted to the the neural network. YOLO web-camera demo, on the other hand, is implemented asynchronously with a double buffer, meaning that while an image is analyzed in the neural network, an image is acquired. Consequently, the acquiring time is saved. 
 
