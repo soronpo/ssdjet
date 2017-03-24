@@ -7,15 +7,17 @@ Some aspects of the Jetson installation process are not trivial. In this section
 \subsection{Jetson TX1 Hardware Kit}
 The kit includes most of the hardware required, but is \textbf{missing} the following:
 \begin{itemize}
+\setlength\itemsep{0.1em}
 \item Power Cable -- Must
 \item Network Cable -- Must
-\item External USB Web Camera -- Must (if camera is required for the application). \item USB Keyboard -- Optional
+\item External USB Web Camera -- Must (if camera is required for the application)
+\item USB Keyboard -- Optional
 \item USB Mouse -- Optional
 \item HDMI Cable -- Optional (with an HDMI supported monitor)
 \item USB Flash Drive -- Optional (If extra space is required)
 \end{itemize}
 
-The on-board camera is not supported well, while a simple USB web camera connected to the USB worked right out of the box.
+The on-board camera is not well supported, while a simple USB web camera connected to the USB worked right out-of-the-box.
 
 The optional components are required to debug the system. All the work can be done via SSH, but our initial system bring-up had unexpected problems. Hopefully, using the tips we layout here, others will be able to avoid this in the future.
 
@@ -31,11 +33,11 @@ The Jetson has very little installation space (\~14GB). It is possible to remove
 
 The SSD Caffe \cite{caffessd} is a fork of the Caffe library \cite{caffeoriginal}. When cloning/downloading the project it is required to use the \textit{ssd} branch.
 
-During Caffe compilation we suffered from a lot of system restarts. We figured out that the CPU fan is not turned-on by default, which causes the system to heat-up. \textbf{The fan must be turned on!} To turn the fan, the following command must be executed in sudo:
+During Caffe compilation we suffered many system restarts. We figured out that the CPU fan is not turned-on by default, which causes the system to heat-up. \textbf{The fan must be turned on!} To turn the fan, the following command must be executed in sudo:
 \begin{lstlisting} 
 echo 255 > /sys/kernel/debug/tegra_fan/target_pwm
 \end{lstlisting}
-However, calling sudo directly with the command does not work. Create a shell script that includes the command, mark it as executable (chmod +x start-fan.sh), and use sudo to call the script instead. We recommend to have an alias handy in your $\sim$/.bashrc file. For example:
+However, calling sudo directly with the command does not work. Create a shell script that includes the command, and use \textit{sudo} to call the script instead. We recommend to have an alias handy in your \textit{.bashrc} file. For example:
 \begin{lstlisting} 
 alias start-fan="sudo ~/start-fan.sh"
 \end{lstlisting}
@@ -66,7 +68,7 @@ LIBRARIES += glog gflags protobuf boost_system boost_filesystem m hdf5_serial_hl
 \end{lstlisting}
 
 \textbf{Python and Caffe paths}.
-Caffe also has Python libraries. Running Python scripts can fail due to unset Python path. By adding the following to $\sim$/.bashrc :
+Caffe also has Python libraries. Running Python scripts can fail due to unset Python path. By adding the following to \textit{.bashrc} :
 \begin{lstlisting} 
 export CAFFE_ROOT=$HOME/caffe
 export PYTHONPATH=$CAFFE_ROOT/python
@@ -96,7 +98,7 @@ in ssd\_pascal\_webcam.py:
 scale = 0.5
 \end{lstlisting}
 
-Running the demo for a limited time can be done by modifying the number of iterations (frames) in ssd\_pascal\_webcam.py:
+Running the demo for a limited time can be done by modifying the number of iterations (frames) in ssd-\_pascal\_webcam.py:
 \begin{lstlisting} 
 # Set the number of test iterations to the maximum integer number.
 test_iter = 30 
@@ -111,14 +113,11 @@ sudo ./jetson_clocks.sh
 \end{lstlisting}
 This script also turns on the fan. We recommend reading the manual first.
 
-\subsection{Yolo Installation}
+\subsection{YOLO Installation}
 The installation of yolo is straightforward. Notice that the running \textit{tiny-yolo} to achieve higher FPS, rendered too many false detections.
 We modified the detector.c file to read a list of images, similarly to the Caffe ssd\_detect functionality. The demo.c file can be modified to set the display resolution to match the Caffe display resolution for proper comparison.
 
-Notice the detector.c does not measure the detection time correctly (same bug as in Caffe), but the demo.c FPS counter is properly implemented.
+Notice that \textit{detector.c} does not measure the detection time correctly (same bug as in Caffe), but the \textit{demo.c} FPS counter is properly implemented.
 
-\subsection{Running the nVidia Profiler}
-Using the tool is fairly simple. Note that it cannot be used to profile the webcam demo applications since they open a GUI, and the profiler does not connect an SSH with \textit{X}. Additionally, the tool enables setting a profiling-timeout, which can be used to partially profile a long running test. 
-
-%\textbf{FPS Readings.}
-%Both SSD and YOLO produce FPS readings based on the CPU time. Because most computation is done on the GPU, the FPS are readings are incorrect, and need to be measured in another way, e.g., dividing the number of analyzed images by the wall-clock time, or using the profiler.
+\subsection{Running the NVIDIA Profiler}
+Using the tool is fairly simple. Note that it cannot be used to profile the web-cam demo applications since they open a GUI, and the profiler does not connect an SSH with \textit{X}. Additionally, the tool enables setting a profiling timeout, which can be used to partially profile a long running test. 

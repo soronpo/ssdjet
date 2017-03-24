@@ -3,11 +3,11 @@
 \label{sec:results}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-To compare SSD performance versus YOLO performance on Jetson TX1, we used their supplied applications for object detection on image files. We profiled both algorithms while they analyze 600 images from MSCOCO dataset \cite{mscoco}. The measured time is the actual kernel execution time, we do not take into consideration the CPU execution time. We made three comparison between the two algorithms: when both run on (1) CPU, (2) GPU without cuDNN, and (3) GPU with cuDNN\footnotemark.
+To compare SSD performance against YOLO performance on Jetson TX1, we first measured their performance on images files that reside in storage. We profiled both algorithms while they analyze 600 images from MSCOCO dataset \cite{mscoco}. The measured time is the actual kernel execution time, i.e., we do not take into consideration the CPU overheads between kernels. We made three comparison: when both algorithms run on (1) CPU, (2) GPU without cuDNN, and (3) GPU with cuDNN\footnotemark.
 
 \footnotetext{The NVIDIA CUDA Deep Neural Network library (cuDNN) is a GPU-accelerated library of primitives for deep neural networks. cuDNN provides highly tuned implementations for standard routines such as forward and backward convolution, pooling, normalization, and activation layers.}
 
-Figure \ref{fig:t_exec} shows the execution time of both SSD and YOLO for each of the options described above.
+Figure \ref{fig:t_exec} shows the execution time of both SSD and YOLO for each of the configurations described above.
 Not surprisingly, running object detection algorithms on a CPU is not as efficient as running them on a GPU. The GPU built-in parallelism is advantageous for such algorithms. The CPU performance is in order of magnitude worse than its GPU counterpart. 
 
 The variation in the execution time when running with and without cuDNN is due to different implementations. YOLO without cuDNN performs better than with cuDNN. On the other hand, SSD with cuDNN performs better than without cuDNN.
