@@ -25,7 +25,7 @@ The optional components are required to debug the system. All the work can be do
 Download the latest Jetpack SDK~\cite{jetpackinstall}. NVIDIA developer membership is required (registration is free).
 It is best to connect the Jetson to a router and SSH to it via internal network. The initial setup requires a host computer connected via USB to the Jetson. The host \textbf{must} be an Ubuntu 14.04 machine. It is possible (and recommended) to use a Virtual Machine software with the proper image. We used Virtual Box~\cite{virtualboxinstall} with the Ubuntu 14.04.05 Trusty image~\cite{virtualboxubuntuimage}. Do not confuse with the 64-bit Ubuntu 16.04 version, which is installed on the Jetson.
 
-The Jetpack installs an optimized OpenCV library, but of an old version. We attempted to updated to a newer version, but had too many complication. It is our recommendation to leave the installed version as is.
+The Jetpack installs an optimized OpenCV library, but of an old version. We attempted to updated to a newer version, but had too many complications. It is our recommendation to leave the installed version as is.
 
 The Jetson has very little installation space (\~14GB). It is possible to remove the installation files to free space after the installation. In any case, it is recommended to have an EXT3/EXT4 formatted USB flash drive available (FAT/NTFS formatted drives do not work as well). 
 
@@ -44,7 +44,7 @@ alias start-fan="sudo ~/start-fan.sh"
 Call start-fan for every system restart.
 
 \textbf{Makefile.config}. 
-When compiling the Caffe library, you create and modify 
+When compiling the Caffe library, you create and modify the \textit{Makefile.config} file from an example file.
 To use cuDNN acceleration modify the flag:
 \begin{lstlisting} 
 USE_CUDNN := 1
@@ -83,7 +83,7 @@ make py
 \end{lstlisting}
 
 \textbf{Example Images and Pretrained models}.
-We used the pretrained models and example images available on the Caffe site.
+We used the pretrained models and example images available on the Caffe website.
 
 \textbf{Web Camera}.
 Jetson TX1 on-board CSI camera does not work straightaway. Alternatively, plugging a dedicated web-camera almost does. To run Caffe SSD web-camera demo, we run the following from the Caffe root directory:
@@ -107,7 +107,7 @@ test_iter = 30
 \textbf{Fixing the FPS indication}. We noticed that the FPS indication is wrong. To fix this issue we modified the bbox\_util.cpp file. The original time measurement used the \textit{clock()} function which measures CPU time, while most computation is done on the GPU. To get the real time between frames we used \textit{clock\_gettime()} instead. Full implementation can be viewed in our repository.
 
 \textbf{Performance Tuning.}
-The new Tegra Linux driver package releases include \textit{jetson\_clocks.sh} script, this is able to maximize performance by disabling DVFS, CPU idle, and CPU quit \cite{tegradriverpack242}. To toggle performance:
+The new Tegra Linux driver package release includes the \textit{jetson\_clocks.sh} script, to maximize performance by disabling DVFS, CPU idle, and CPU quit \cite{tegradriverpack242}. Activating the script:
 \begin{lstlisting} 
 sudo ./jetson_clocks.sh
 \end{lstlisting}
