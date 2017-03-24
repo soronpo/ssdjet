@@ -26,6 +26,8 @@ YOLO 4.7FPS fits the 200msec measurement shown in Figure \ref{fig:t_exec} ($200m
 
 SSD web-camera FPS is lower since the code that runs it is synchronous, meaning after an image was acquired from the web-camera it is inserted to the the neural network. YOLO web-camera demo, on the other hand, is implemented asynchronously with a double buffer, meaning that while an image is analyzed in the neural network, an image is acquired. Consequently, the acquiring time is saved. 
 
+Fig.~\ref{fig:cam} visually demonstrates that the SSD algorithms binds the detection boxes more tightly than Yolo. Additionally, the pretrained models we used for Yolo are clearly more tag-rich than the SSD pretrained models.
+
 \begin{figure}[h]
 	\subfloat[SSD: 3.8FPS]{
 		\includegraphics[width=0.23\textwidth]{./imgs/ssd_38fps.png}

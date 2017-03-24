@@ -3,6 +3,25 @@
 \label{sec:profiling}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\begin{figure*}[t]
+  \begin{center}
+    \subfloat[The out on SSD (identical for YOLO): initialization phase, followed by serial object detection of images]{
+      \includegraphics[width=1\textwidth]{./imgs/ssd-10frames.png}
+      \label{fig:profile:ssd_full}
+    } \\
+    \subfloat[Zoom in on SSD: single image object detection]{
+      \includegraphics[width=1\textwidth]{./imgs/ssd-1frame.png}
+      \label{fig:profile:ssd}
+    } \\
+    \subfloat[Zoom in on YOLO: single image object detection]{
+      \includegraphics[width=1\textwidth]{./imgs/yolo-1frame.png}
+      \label{fig:profile:yolo}
+    }
+    \caption{Profiling object detection on a batch of images with GPU and cuDNN on Jetson TX1, using NVIDIA Visual Profiler}
+    \label{fig:profile}
+  \end{center}
+\end{figure*}
+
 Figure \ref{fig:profile} shows the profiling output of object detection of a single image, using SSD and YOLO. Profiling was done using NVIDIA Visual Profiler.
 
 One of Jetson's strengths is that its CPU and GPU share the same memory. Therefore, host-to-device (HtoD) and device-to-host (DtoH) copies can be optimized to zero-copy \cite{tegrazerocopy}. Zero-copy will have no effect on SSD and YOLO, since memory copies are not frequent, therefore, there is no speedup potential. In addition, there are no overlapping opportunities between HtoD, DtoH, and the compute kernels, since there are almost no memory copies.
@@ -13,24 +32,5 @@ As can be seen from the profiling output, the dominant computation kernels belon
 
 A major difference between SSD and Yolo, is number of memory transfers per frame. While Yolo has a single DtoH transfer and a single HtoD, SDD has 32 DtoH transfers and 2 HtoD transfers. Most of the SSD DtoH transfers are 16 bytes in size; very small and inefficient transfers. We did not manage to isolate the SSD Caffe layers that cause this issue.  
 
-
-\begin{figure*}[t]
-	\begin{center}
-	\subfloat[The out on SSD (identical for YOLO): initialization phase, followed by serial object detection of images]{
-		\includegraphics[width=1\textwidth]{./imgs/ssd-10frames.png}
-		\label{fig:profile:ssd_full}
-	} \\
-	\subfloat[Zoom in on SSD: single image object detection]{
-		\includegraphics[width=1\textwidth]{./imgs/ssd-1frame.png}
-		\label{fig:profile:ssd}
-	} \\
-	\subfloat[Zoom in on YOLO: single image object detection]{
-		\includegraphics[width=1\textwidth]{./imgs/yolo-1frame.png}
-		\label{fig:profile:yolo}
-	}
-	\caption{Profiling object detection on a batch of images with GPU and cuDNN on Jetson TX1, using NVIDIA Visual Profiler}
-	\label{fig:profile}
-	\end{center}
-\end{figure*}
 
 
