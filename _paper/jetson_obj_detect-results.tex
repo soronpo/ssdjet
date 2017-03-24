@@ -3,14 +3,14 @@
 \label{sec:results}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-To compare SSD performance against YOLO performance on Jetson TX1, we first measured their performance on images files that reside in storage. We profiled both algorithms while they analyze 600 images from MSCOCO dataset \cite{mscoco}. The measured time is the actual kernel execution time, i.e., we do not take into consideration the CPU overheads between kernels. We made three comparison: when both algorithms run on (1) CPU, (2) GPU without cuDNN, and (3) GPU with cuDNN\footnotemark.
+To compare SSD performance against YOLO performance on Jetson TX1, we first measured their performance on image files that reside in storage. We profiled both algorithms while they analyze 600 images from MSCOCO dataset \cite{mscoco}. The measured time is the actual kernel execution time, i.e., we do not take into consideration the CPU overheads between kernels. We made three comparison: when both algorithms run on (1) CPU, (2) GPU without cuDNN, and (3) GPU with cuDNN\footnotemark.
 
 \footnotetext{The NVIDIA CUDA Deep Neural Network library (cuDNN) is a GPU-accelerated library of primitives for deep neural networks. cuDNN provides highly tuned implementations for standard routines such as forward and backward convolution, pooling, normalization, and activation layers.}
 
 Figure \ref{fig:t_exec} shows the execution time of both SSD and YOLO for each of the configurations described above.
 Not surprisingly, running object detection algorithms on a CPU is not as efficient as running them on a GPU. The GPU built-in parallelism is advantageous for such algorithms. The CPU performance is in order of magnitude worse than its GPU counterpart. 
 
-The variation in the execution time when running with and without cuDNN is due to different implementations. YOLO without cuDNN performs better than with cuDNN. On the other hand, SSD with cuDNN performs better than without cuDNN.
+The variation in the execution time when running with and without cuDNN is due to the different implementations. YOLO without cuDNN performs better than with cuDNN. On the other hand, SSD with cuDNN performs better than without cuDNN.
 
 SSD and YOLO performance is almost identical when compiled with cuDNN. It is interesting, since SSD claims to have better performance than YOLO \cite{liu2016ssd}. SSD was benchmarked with NVIDIA Titan X, which has a newer microarchitecture (Pascal vs. Maxwell), 14x more CUDA cores (3584 vs. 256), greater capacity faster memory (12GB GDDR5X vs. 4GB shared LPDDR4), and higher frequency. When system resources are scarce, the performance gains achieved by the algorithm are insignificant, therefore we do not see any major performance advantage towards SSD.
 
@@ -20,13 +20,13 @@ SSD and YOLO performance is almost identical when compiled with cuDNN. It is int
 	\label{fig:t_exec}
 \end{figure}
 
-SSD and YOLO are also packed with a web-camera demo. The original FPS readings used in the demo code are wrong, since they are based on the CPU execution time on the on the GPU execution time, therefore, the original, incorrect readings, are higher. After fixing the source code, we have measured 3.8FPS when using SSD and 4.7FPS when using YOLO. We ran the demo when both SSD and YOLO are compiled with cuDNN, and after running the \textit{jetson\_clocks.sh} script (see Section \ref{sec:installation}).
+SSD and YOLO are also packed with a web-camera demo. The original FPS readings used in the demo code are wrong, since they are based on the CPU execution time, therefore, the original readings are higher. After fixing the source code, we have measured 3.8FPS when using SSD, and 4.7FPS when using YOLO. We ran the demo when both SSD and YOLO were compiled with cuDNN, and after running the \textit{jetson\_clocks.sh} script (see Section \ref{sec:installation}).
 
-YOLO 4.7FPS fits the 200msec measurement shown in Figure \ref{fig:t_exec} ($200msec [sec/frame] = 5[frame/sec]$). The slightly lower FPS measured is due to the software overheads (e.g., fetching the images, displaying them, and drawing detection bounds).
+YOLO 4.7 frames per second (FPS) fits the 200msec measurement shown in Figure \ref{fig:t_exec} ($200msec [sec/frame] = 5[frame/sec]$). The slightly lower FPS measured is due to the software overheads (e.g., fetching the images, displaying them, and drawing detection bounds).
 
-SSD web-camera FPS is lower since the code that runs it is synchronous, meaning after an image was acquired from the web-camera it is inserted to the the neural network. YOLO web-camera demo, on the other hand, is implemented asynchronously with a double buffer, meaning that while an image is analyzed in the neural network, an image is acquired. Consequently, the acquiring time is saved. 
+SSD web-camera demo FPS is lower, since the code that runs it is synchronous, meaning that after an image was acquired from the web-camera it is inserted to the the neural network. YOLO web-camera demo, on the other hand, is implemented asynchronously with a double buffer, meaning that while an image is analyzed in the neural network, an image is acquired. As a consequence, the acquiring time is saved. 
 
-Fig.~\ref{fig:cam} visually demonstrates that the SSD algorithms binds the detection boxes more tightly than Yolo. Additionally, the pretrained models we used for Yolo are clearly more tag-rich than the SSD pretrained models.
+Figure \ref{fig:cam} visually demonstrates that the SSD algorithms binds the detection boxes more tightly than YOLO. Additionally, the pretrained models we used for YOLO are clearly more tag-rich than the SSD pretrained models.
 
 \begin{figure}[h]
 	\subfloat[SSD: 3.8FPS]{

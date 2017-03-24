@@ -3,7 +3,8 @@
 \label{sec:conclusion}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-SSD and YOLO are not I/O intensive but compute intensive. Since 75\% of execution time the algorithms runs cuDNN, which is a well optimized library provided by NVIDIA, we think that in this project time frame it is not possible optimize SSD or YOLO any further. Even if one will optimize the remaining 25\%, the 10FPS goal will not be achieved (Amdahl's law).
+SSD and YOLO are not I/O intensive but compute intensive. Since 75\% of execution time the algorithms runs cuDNN, which is a well optimized library provided by NVIDIA, we think that in this project time frame it is not possible to optimize SSD or YOLO any further. Even if one will optimize the remaining 25\%, the 10FPS goal will not be achieved (Amdahl's law).
 
-It is possible to increase the performance of the above algorithms on a Jetson TX1 by modifying the algorithms, probably on the expense of accuracy. For example, Tiny YOLO is a faster version of YOLO. It exhibits 4x speedup over the regular YOLO (according to their website). The trade-off is unbearable error rate. Unfortunately, we didn't find a model that fits in between.
+It is possible to increase the performance of the above algorithms on a Jetson TX1 by modifying the algorithms, probably on the expense of accuracy. For example, Tiny YOLO is a faster version of YOLO. It exhibits 4x speedup over the regular YOLO (according to their website). The trade-off is unbearable error rate. Unfortunately, we did not find a model that fits in between.
 
+A simple solution to scale performance is scaling the number of Jetson boards, it would be interesting to see whether performance increase linearly with the increase of the number of Jetsons. It will be also interesting to measure the power consumption of such architecture versus its performance.
