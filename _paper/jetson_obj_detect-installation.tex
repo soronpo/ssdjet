@@ -2,8 +2,40 @@
 \section{Installation and Execution}
 \label{sec:installation}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Some aspects of the Jetson installation process are not trivial. In this section, we share some installation tips, gathered during this project. It is our hope that these tips will others to avoid our obstacles.
 
-YOLO compiles out-of-the-box on Jetson TX1. Unfortunately, Caffe does not. In this section we will describe the problems we encountered during installation. Hopefully, this information will ease the process for others. In addition, we will share some tips, gathered during this project, regarding the execution of the SSD implementation.
+\subsection{Jetson TX1 Hardware Kit}
+The kit includes most of the hardware required, but is \textbf{missing} the following:
+\begin{itemize}
+\item Power Cable -- Must
+\item Network Cable -- Must
+\item External USB Web Camera -- Must (if camera is required for the application). \item USB Keyboard -- Optional
+\item USB Mouse -- Optional
+\item HDMI Cable -- Optional (with an HDMI supported monitor)
+\item USB Flash Drive -- Optional (If extra space is required)
+\end{itemize}
+
+The on-board camera is not supported well, while a simple USB web camera connected to the USB worked right out of the box.
+
+The optional components are required to debug the system. All the work can be done via SSH, but our initial system bring-up had unexpected problems. Hopefully, using the tips we layout here, others will be able to avoid this in the future.
+
+\subsection{Jetpack SDK Installation}
+Download the latest Jetpack SDK~\cite{jetpackinstall}. nVidia Developer membership is required (registration is free).
+It is best to connect the Jetson to a router and SSH to it via internal network. The initial setup requires a host computer connected via USB to the Jetson. The host \textbf{must} be an Ubuntu 14.04 machine. It is possible (and recommended) to use a Virtual Machine software with the proper image. We used Virtual Box~\cite{virtualboxinstall} with the Ubuntu 14.04.05 Trusty image~\cite{virtualboxubuntuimage}. Do not confuse with the 64-bit Ubuntu 16.04 version, which is installed on the Jetson.
+
+The Jetpack installs an optimized OpenCV library, but of an old version. We attempted to updated to a newer version, but had too many complication. It is our recommendation to leave the installed version as is.
+
+The Jetson has very little installation space (~14GB). It is possible to remove the installation files to free space after the installation. In any case, it is recommended to have an EXT3/EXT4 formatted USB flash drive available (FAT/NTFS formatted drives do not work as well). 
+
+\subsection{Caffe Installation}
+
+The SSD Caffe\cite{caffessd} is a fork of the Caffe library\cite{caffeoriginal}. When cloning/downloading the project it is required to use the \textit{ssd} branch.
+
+During Caffe compilation we suffered from a lot of system restarts. We figured out that the CPU fan is not turned-on by default, which causes the system to heat-up. \textbf{The fan must be turned on!} To turn the fan, the following command must be executed in sudo:
+\begin{lstlisting} 
+echo 255 > /sys/kernel/debug/tegra_fan/target_pwm
+\end{lstlisting}
+However, calling sudo directly with the command does not work. Create a shell script that includes the command, mark it as executable (chmod +x script.sh), and use sudo to call the script instead. We recommend to have an alias handy in your ~/.bashrc 
 
 \textbf{Makefile.config.}
 To use cuDNN acceleration:

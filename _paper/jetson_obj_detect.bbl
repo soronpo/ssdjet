@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{liu2016ssd}
 W.~Liu, D.~Anguelov, D.~Erhan, C.~Szegedy, S.~Reed, C.-Y. Fu, and A.~C. Berg,
@@ -15,6 +15,23 @@ J.~Redmon, S.~Divvala, R.~Girshick, and A.~Farhadi, ``{You Only Look Once:
 
 \bibitem{tegrazerocopy}
 ``{Zero Copy on Tegra K1}.'' http://arrayfire.com/zero-copy-on-tegra-k1/.
+
+\bibitem{jetpackinstall}
+``{JetPack SDK Installation}.'' https://developer.nvidia.com/embedded/jetpack/.
+
+\bibitem{virtualboxinstall}
+``{Virtual Box Installation}.'' https://www.virtualbox.org/wiki/Downloads/.
+
+\bibitem{virtualboxubuntuimage}
+``{OSBoxes Ubuntu Images}.'' http://www.osboxes.org/ubuntu/.
+
+\bibitem{caffessd}
+``{Caffe SSD: Single Shot MultiBox Detector}.''
+  https://github.com/weiliu89/caffe/tree/ssd.
+
+\bibitem{caffeoriginal}
+``{Caffe: a fast open framework for deep learning}.''
+  https://github.com/BVLC/caffe.
 
 \bibitem{tegradriverpack242}
 Nvidia, ``{Tegra Linux Driver Package R24.2},'' 2016.
