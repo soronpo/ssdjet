@@ -2,7 +2,7 @@
 \section{Installation and Execution}
 \label{sec:installation}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Some aspects of the Jetson installation process are not trivial. In this section, we share some installation tips, gathered during this project. It is our hope that these tips will others to avoid our obstacles.
+Some aspects of the Jetson installation process are not trivial. In this section, we share some installation tips, gathered during this project. It is our hope that these tips will help others to avoid our obstacles.
 
 \subsection{Jetson TX1 Hardware Kit}
 The kit includes most of the hardware required, but is \textbf{missing} the following:
@@ -20,25 +20,30 @@ The on-board camera is not supported well, while a simple USB web camera connect
 The optional components are required to debug the system. All the work can be done via SSH, but our initial system bring-up had unexpected problems. Hopefully, using the tips we layout here, others will be able to avoid this in the future.
 
 \subsection{Jetpack SDK Installation}
-Download the latest Jetpack SDK~\cite{jetpackinstall}. nVidia Developer membership is required (registration is free).
+Download the latest Jetpack SDK~\cite{jetpackinstall}. NVIDIA developer membership is required (registration is free).
 It is best to connect the Jetson to a router and SSH to it via internal network. The initial setup requires a host computer connected via USB to the Jetson. The host \textbf{must} be an Ubuntu 14.04 machine. It is possible (and recommended) to use a Virtual Machine software with the proper image. We used Virtual Box~\cite{virtualboxinstall} with the Ubuntu 14.04.05 Trusty image~\cite{virtualboxubuntuimage}. Do not confuse with the 64-bit Ubuntu 16.04 version, which is installed on the Jetson.
 
 The Jetpack installs an optimized OpenCV library, but of an old version. We attempted to updated to a newer version, but had too many complication. It is our recommendation to leave the installed version as is.
 
-The Jetson has very little installation space (~14GB). It is possible to remove the installation files to free space after the installation. In any case, it is recommended to have an EXT3/EXT4 formatted USB flash drive available (FAT/NTFS formatted drives do not work as well). 
+The Jetson has very little installation space (\~14GB). It is possible to remove the installation files to free space after the installation. In any case, it is recommended to have an EXT3/EXT4 formatted USB flash drive available (FAT/NTFS formatted drives do not work as well). 
 
 \subsection{Caffe Installation}
 
-The SSD Caffe\cite{caffessd} is a fork of the Caffe library\cite{caffeoriginal}. When cloning/downloading the project it is required to use the \textit{ssd} branch.
+The SSD Caffe \cite{caffessd} is a fork of the Caffe library \cite{caffeoriginal}. When cloning/downloading the project it is required to use the \textit{ssd} branch.
 
 During Caffe compilation we suffered from a lot of system restarts. We figured out that the CPU fan is not turned-on by default, which causes the system to heat-up. \textbf{The fan must be turned on!} To turn the fan, the following command must be executed in sudo:
 \begin{lstlisting} 
 echo 255 > /sys/kernel/debug/tegra_fan/target_pwm
 \end{lstlisting}
-However, calling sudo directly with the command does not work. Create a shell script that includes the command, mark it as executable (chmod +x script.sh), and use sudo to call the script instead. We recommend to have an alias handy in your ~/.bashrc 
+However, calling sudo directly with the command does not work. Create a shell script that includes the command, mark it as executable (chmod +x start-fan.sh), and use sudo to call the script instead. We recommend to have an alias handy in your ~/.bashrc file. For example:
+\begin{lstlisting} 
+alias start-fan="sudo ~/start-fan.sh"
+\end{lstlisting}
+Call start-fan for every system restart.
 
-\textbf{Makefile.config.}
-To use cuDNN acceleration:
+\textbf{Makefile.config}. 
+When compiling the Caffe library, you create and modify 
+To use cuDNN acceleration modify the flag:
 \begin{lstlisting} 
 USE_CUDNN := 1
 \end{lstlisting}
@@ -54,36 +59,66 @@ INCLUDE_DIRS := $(PYTHON_INCLUDE) /usr/local/include /usr/include/hdf5/serial
 LIBRARY_DIRS := $(PYTHON_LIB) /usr/local/lib /usr/lib/aarch64-linux-gnu/serial
 \end{lstlisting}
 
-\textbf{Makefile.}
+\textbf{Makefile}.
 HDF5 libraries need to be added to the Makefile also:
 \begin{lstlisting} 
 LIBRARIES += glog gflags protobuf boost_system boost_filesystem m hdf5_serial_hl hdf5_serial
 \end{lstlisting}
 
-\textbf{Python.}
-Caffe also has Python libraries. Running Python scripts can fail due to unset Python path. By running:
+\textbf{Python and Caffe paths}.
+Caffe also has Python libraries. Running Python scripts can fail due to unset Python path. By adding the following to ~/.bashrc :
 \begin{lstlisting} 
+export CAFFE_ROOT=$HOME/caffe
 export PYTHONPATH=$CAFFE_ROOT/python
 \end{lstlisting}
-where \textit{\$CAFFE\_ROOT} is the Caffe home directory, we managed to fix the issues.
+where \textit{\$CAFFE\_ROOT} is the Caffe home directory, we managed to fix the issues. 
 
-\textbf{Web Camera.}
-Jetson TX1 on-board CSI camera does not work straightaway. On the other hand, plugging a dedicated web-camera almost does. To run Caffe SSD web-camera demo, add the following line before the command:
+\textbf{Compiling}.
+Make sure to use '-j4' flag for a faster make. For python programs 'make py' must also be executed.
 \begin{lstlisting} 
-LD_PRELOAD=/usr/lib/aarch64-linux-gnu/libv4l/v4l2convert.so
+make -j4
+make py
 \end{lstlisting}
+
+\textbf{Example Images and Pretrained models}.
+We used the pretrained models and example images available on the Caffe site.
+
+\textbf{Web Camera}.
+Jetson TX1 on-board CSI camera does not work straightaway. Alternatively, plugging a dedicated web-camera almost does. To run Caffe SSD web-camera demo, we run the following from the Caffe root directory:
+\begin{lstlisting} 
+LD_PRELOAD=/usr/lib/aarch64-linux-gnu/libv4l/v4l2convert.so python examples/ssd/ssd_pascal_webcam.py
+\end{lstlisting}
+
+Smaller resolution with faster FPS can be obtained by changing the display scale 
+in ssd\_pascal\_webcam.py:
+\begin{lstlisting} 
+# Scale the image size for display.
+scale = 0.5
+\end{lstlisting}
+
+Running the demo for a limited time can be done by modifying the number of iterations (frames) in ssd\_pascal\_webcam.py:
+\begin{lstlisting} 
+# Set the number of test iterations to the maximum integer number.
+test_iter = 30 
+\end{lstlisting}
+
+\textbf{Fixing the FPS indication}. We noticed that the FPS indication is wrong. To fix this issue we modified the bbox\_util.cpp file. The original time measurement used the \textit{clock()} function which measures CPU time, while most computation is done on the GPU. To get the real time between frames we used \textit{clock\_gettime()} instead. Full implementation can be viewed in our repository.
 
 \textbf{Performance Tuning.}
 The new Tegra Linux driver package releases include \textit{jetson\_clocks.sh} script, this is able to maximize performance by disabling DVFS, CPU idle, and CPU quit \cite{tegradriverpack242}. To toggle performance:
 \begin{lstlisting} 
 sudo ./jetson_clocks.sh
 \end{lstlisting}
-We recommend reading the manual first.
+This script also turns on the fan. We recommend reading the manual first.
 
-We also noticed that Jetson TX1 fan does not work on default. The script above turns it on. Enabling the fan without running the \textit{jetson\_clocks.sh} script, can be achieved with:
-\begin{lstlisting} 
-echo 255 > /sys/kernel/debug/tegra_fan/target_pwm
-\end{lstlisting}
+\subsection{Yolo Installation}
+The installation of yolo is straightforward. Notice that the running \textit{tiny-yolo} to achieve higher FPS, rendered too many false detections.
+We modified the detector.c file to read a list of images, similarly to the Caffe ssd\_detect functionality. The demo.c file can be modified to set the display resolution to match the Caffe display resolution for proper comparison.
 
-\textbf{FPS Readings.}
-Both SSD and YOLO produce FPS readings based on the CPU time. Because most computation is done on the GPU, the FPS are readings are incorrect, and need to be measured in another way, e.g., dividing the number of analyzed images by the wall-clock time, or using the profiler.
+Notice the detector.c does not measure the detection time correctly (same bug as in Caffe), but the demo.c FPS counter is properly implemented.
+
+\subsection{Running the nVidia Profiler}
+Using the tool is fairly simple. Note that it cannot be used to profile the webcam demo applications since they open a GUI, and the profiler does not connect an SSH with \textit{X}. Additionally, the tool enables setting a profiling-timeout, which can be used to partially profile a long running test. 
+
+%\textbf{FPS Readings.}
+%Both SSD and YOLO produce FPS readings based on the CPU time. Because most computation is done on the GPU, the FPS are readings are incorrect, and need to be measured in another way, e.g., dividing the number of analyzed images by the wall-clock time, or using the profiler.
