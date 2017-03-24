@@ -10,6 +10,9 @@ J.~Redmon, S.~Divvala, R.~Girshick, and A.~Farhadi, ``{You Only Look Once:
   Unified, Real-Time Object Detection},'' in {\em Proceedings of the IEEE
   Conference on Computer Vision and Pattern Recognition}, pp.~779--788, 2016.
 
+\bibitem{mscoco}
+``{COCO - Common Objects in Context}.'' http://mscoco.org.
+
 \bibitem{tegradriverpack242}
 Nvidia, ``{Tegra Linux Driver Package R24.2},'' 2016.
 
