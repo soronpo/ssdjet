@@ -3,7 +3,7 @@
 \label{sec:profiling}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Figure \ref{fig:profile} shows the profiling output of object detection of a single image, using SSD and YOLO. Profiling was done using Nvidia Visual Profiler.
+Figure \ref{fig:profile} shows the profiling output of object detection of a single image, using SSD and YOLO. Profiling was done using NVIDIA Visual Profiler.
 
 One of Jetson's strengths is that its CPU and GPU share the same memory. Therefore, host-to-device (HtoD) and device-to-host (DtoH) copies can be optimized to zero-copy \cite{tegrazerocopy}. Zero-copy will have no effect on SSD and YOLO, since memory copies are not frequent, therefore, there is no speedup potential. In addition, there are no overlapping opportunities between HtoD, DtoH, and the compute kernels, since there are almost no memory copies.
 
@@ -20,7 +20,7 @@ In terms of compute intensity, both algorithms use 75\% of their compute time in
 		\label{fig:profile:yolo}
 	}
 
-	\caption{Profiling object detection on a single image with GPU and cuDNN on Jetson TX1, using Nvidia Visual Profiler}
+	\caption{Profiling object detection on a single image with GPU and cuDNN on Jetson TX1, using NVIDIA Visual Profiler}
 	\label{fig:profile}
 	\end{center}
 \end{figure*}
