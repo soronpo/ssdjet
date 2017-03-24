@@ -1,8 +1,56 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Installation}
+\section{Installation and Execution}
 \label{sec:installation}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+YOLO compiles out-of-the-box on Jetson TX1. Unfortunately, Caffe does not. In this section we will describe the problems we encountered during installation. Hopefully, this information will ease the process for others. In addition, we will share some tips, gathered during this project, regarding the execution of the SSD implementation.
 
+\textbf{Makefile.config.}
+To use cuDNN acceleration:
+\begin{lstlisting} 
+USE_CUDNN := 1
+\end{lstlisting}
 
+Tegra X1 has CUDA capability 5.3, therefore append to \textit{CUDA\_ARCH}: 
+\begin{lstlisting} 
+CUDA_ARCH := -gencode arch=compute_53, code=sm_53
+\end{lstlisting}
 
+HDF5 directories should be added to \textit{INCLUDE\_DIRS} and \textit{LIBRARY\_DIRS}:
+\begin{lstlisting} 
+INCLUDE_DIRS := $(PYTHON_INCLUDE) /usr/local/include /usr/include/hdf5/serial
+LIBRARY_DIRS := $(PYTHON_LIB) /usr/local/lib /usr/lib/aarch64-linux-gnu/serial
+\end{lstlisting}
+
+\textbf{Makefile.}
+HDF5 libraries need to be added to the Makefile also:
+\begin{lstlisting} 
+LIBRARIES += glog gflags protobuf boost_system boost_filesystem m hdf5_serial_hl hdf5_serial
+\end{lstlisting}
+
+\textbf{Makefile.}
+
+\textbf{Python.}
+Caffe also has Python libraries. Running Python scripts can fail due to unset Python path. By running:
+\begin{lstlisting} 
+export PYTHONPATH=$CAFFE_ROOT/python
+\end{lstlisting}
+where \textit{\$CAFFE\_ROOT} is the Caffe home directory, we managed to fix the issues.
+
+\textbf{Web Camera.}
+Jetson TX1 on-board CSI camera does not work straightaway. On the other hand, plugging a dedicated web-camera almost does. To run Caffe SSD web-camera demo, add the following line before the command:
+\begin{lstlisting} 
+LD_PRELOAD=/usr/lib/aarch64-linux-gnu/libv4l/v4l2convert.so
+\end{lstlisting}
+
+\textbf{Performance Tuning.}
+The new Tegra Linux driver package releases include \textit{jetson\_clocks.sh} script, this is able to maximize performance by disabling DVFS, CPU idle, and CPU quit \cite{tegradriverpack242}. To toggle performance:
+\begin{lstlisting} 
+sudo ./jetson_clocks.sh
+\end{lstlisting}
+We recommend reading the manual first.
+
+We also noticed that Jetson TX1 fan does not work on default. The script above turns it on. Enabling the fan without running the \textit{jetson\_clocks.sh} script, can be achieved with:
+\begin{lstlisting} 
+echo 255 > /sys/kernel/debug/tegra_fan/target_pwm
+\end{lstlisting}

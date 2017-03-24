@@ -2,12 +2,15 @@
 
 \bibitem{liu2016ssd}
 W.~Liu, D.~Anguelov, D.~Erhan, C.~Szegedy, S.~Reed, C.-Y. Fu, and A.~C. Berg,
-  ``Ssd: Single shot multibox detector,'' in {\em European Conference on
+  ``{SSD: Single Shot Multibox Detector},'' in {\em European Conference on
   Computer Vision}, pp.~21--37, Springer, 2016.
 
 \bibitem{redmon2016you}
-J.~Redmon, S.~Divvala, R.~Girshick, and A.~Farhadi, ``You only look once:
-  Unified, real-time object detection,'' in {\em Proceedings of the IEEE
+J.~Redmon, S.~Divvala, R.~Girshick, and A.~Farhadi, ``{You Only Look Once:
+  Unified, Real-Time Object Detection},'' in {\em Proceedings of the IEEE
   Conference on Computer Vision and Pattern Recognition}, pp.~779--788, 2016.
+
+\bibitem{tegradriverpack242}
+Nvidia, ``{Tegra Linux Driver Package R24.2},'' 2016.
 
 \end{thebibliography}
