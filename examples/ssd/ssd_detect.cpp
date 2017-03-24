@@ -25,7 +25,6 @@
 #include <string>
 #include <utility>
 #include <vector>
-#include <pthread.h>
 
 #ifdef USE_OPENCV
 using namespace caffe;  // NOLINT(build/namespaces)
@@ -242,35 +241,14 @@ DEFINE_string(out_file, "",
 DEFINE_double(confidence_threshold, 0.01,
     "Only store detections with score higher than the threshold.");
 
-  const int num_threads = 0;
-  cv::Mat glbl_img;
-  cv::Mat glbl_img2;
-
-void *foo(void *arg)
-{
-    Detector * det = (Detector *) arg;
-    det->Detect(glbl_img);
-    return NULL;
-}
-void *foo2(void *arg)
-{
-    Detector * det = (Detector *) arg;
-    det->Detect(glbl_img2);
-    return NULL;
-}
-
-
 int main(int argc, char** argv) {
   ::google::InitGoogleLogging(argv[0]);
   // Print output to stderr (while still logging)
-  FLAGS_alsologtostderr = 4;
+  FLAGS_alsologtostderr = 1;
 
 #ifndef GFLAGS_GFLAGS_H_
   namespace gflags = google;
 #endif
-
-
-  //pthread_t threads[num_threads];
 
   gflags::SetUsageMessage("Do detection using SSD mode.\n"
         "Usage:\n"
@@ -291,7 +269,6 @@ int main(int argc, char** argv) {
   const float confidence_threshold = FLAGS_confidence_threshold;
 
   // Initialize the network.
-  //std::vector<Detector> detectors(num_threads, Detector(model_file, weights_file, mean_file, mean_value));
   Detector detector(model_file, weights_file, mean_file, mean_value);
 
   // Set the output mode.
@@ -311,23 +288,8 @@ int main(int argc, char** argv) {
   while (infile >> file) {
     if (file_type == "image") {
       cv::Mat img = cv::imread(file, -1);
-      //glbl_img = img;
-      //glbl_img2 = img.clone();
       CHECK(!img.empty()) << "Unable to decode image " << file;
-      /*for (int i = 0; i < num_threads; i++) {
-          if (i == 0)
-            pthread_create(&threads[i], 0, foo, &detectors.at(i));
-          else
-            pthread_create(&threads[i], 0, foo2, &detectors.at(i));
-      }
-      for (int i = 0; i < num_threads; i++) {
-          if(pthread_join(threads[i], NULL)) {
-              fprintf(stderr, "Error joining threadn");
-              return 2;
-          }
-      }*/
       std::vector<vector<float> > detections = detector.Detect(img);
-      
 
       /* Print the detection results. */
       for (int i = 0; i < detections.size(); ++i) {

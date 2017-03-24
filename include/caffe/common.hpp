@@ -3,7 +3,6 @@
 
 #include <boost/shared_ptr.hpp>
 #include <gflags/gflags.h>
-#define GOOGLE_STRIP_LOG 1    // this must go before the #include!
 #include <glog/logging.h>
 
 #include <climits>
