@@ -16,16 +16,19 @@ A major difference between SSD and Yolo, is number of memory transfers per frame
 
 \begin{figure*}[t]
 	\begin{center}
-	\subfloat[SSD]{
+	\subfloat[The big picture: SSD (and YOLO) first start with initialization phase, followed with a repeated images object detection]{
+		\includegraphics[width=1\textwidth]{./imgs/ssd-10frames.png}
+		\label{fig:profile:ssd_full}
+	} \\
+	\subfloat[Zoom in on SSD: single image object detection]{
 		\includegraphics[width=1\textwidth]{./imgs/ssd-1frame.png}
 		\label{fig:profile:ssd}
 	} \\
-	\subfloat[YOLO]{
+	\subfloat[Zoom in on YOLO: single image object detection]{
 		\includegraphics[width=1\textwidth]{./imgs/yolo-1frame.png}
 		\label{fig:profile:yolo}
 	}
-
-	\caption{Profiling object detection on a single image with GPU and cuDNN on Jetson TX1, using NVIDIA Visual Profiler}
+	\caption{Profiling object detection on a batch of images with GPU and cuDNN on Jetson TX1, using NVIDIA Visual Profiler}
 	\label{fig:profile}
 	\end{center}
 \end{figure*}
