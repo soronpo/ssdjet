@@ -1,0 +1,90 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% This is the template for submission to MICRO 2016
+% The cls file is a modified from  'sig-alternate.cls'
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass{sig-alternate}
+
+\newcommand{\ignore}[1]{}
+\usepackage{fancyhdr}
+\usepackage[normalem]{ulem}
+\usepackage[hyphens]{url}
+%\usepackage{hyperref}
+
+%%%% ADDED BY GIL %%%%
+\usepackage[caption=false]{subfig}
+\usepackage{array}
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+\usepackage{multirow}
+
+\usepackage{xcolor}
+\newcommand\todo[1]{\textcolor{red}{#1}}
+
+\captionsetup[subfigure]{subrefformat=simple,labelformat=simple,listofformat=subsimple}
+\renewcommand\thesubfigure{(\alph{subfigure})}
+
+%%%%%%%%%%%---SETME-----%%%%%%%%%%%%%
+\newcommand{\microsubmissionnumber}{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\fancypagestyle{firstpage}{
+  \fancyhf{}
+\setlength{\headheight}{50pt}
+\renewcommand{\headrulewidth}{0pt}
+  \fancyhead[C]{\normalsize{047006 - Heterogeneous Computing - Final Project
+      \textbf{\microsubmissionnumber}}} 
+  \pagenumbering{arabic}
+}  
+
+%%%%%%%%%%%---SETME-----%%%%%%%%%%%%%
+\title{Object Detection with Jetson TX1:\\Challenges and Insights} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\author{
+  {
+  Oron Port\hspace{10 mm}
+  Gil Shomron}\\[0mm]
+  \{soronpo, gilsho\}@tx.technion.ac.il\\[0mm]
+  Electrical Engineering\\[0mm]
+  Technion --- Israel Institute of Technology
+}
+
+\begin{document}
+\maketitle
+\thispagestyle{firstpage}
+\pagestyle{plain}
+
+
+
+%%%%%% -- PAPER CONTENT STARTS-- %%%%%%%%
+
+\begin{abstract}
+
+  This document is intended to serve as a sample for submissions to
+  the 49th International Symposium on Microarchitecture (MICRO), 2016.
+  We provide some guidelines that authors should follow when
+  submitting papers to the conference.  This format is derived from
+  the ACM sig-alternate.cls file, and is used with an objective of
+  keeping the submission version similar to the camera ready version. 
+
+\end{abstract}
+
+
+
+%###############################################################################
+\input{jetson_obj_detect-intro}
+\input{jetson_obj_detect-results}
+\input{jetson_obj_detect-profiling}
+\input{jetson_obj_detect-conclusion}
+%###############################################################################
+
+
+%%%%%%% -- PAPER CONTENT ENDS -- %%%%%%%%
+
+
+%%%%%%%%% -- BIB STYLE AND FILE -- %%%%%%%%
+\bibliographystyle{ieeetr}
+\bibliography{jetson_obj_detect}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
